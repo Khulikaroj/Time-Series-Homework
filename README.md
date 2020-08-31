@@ -12,7 +12,7 @@ ARIMA(5,1,1) Model also suggest the same as ARMA(2,1) model, buy Yen. However, n
 
 This problem might arise from model specification. Estimated parameter would be statistically significant if we use ARIMA(1,1,1) as ACF and PACF suggest. ARIMA(1,1,1) also give lower AIC and BIC which mean better model specification compared to ARIMA(5,1,1). 
 
-From ARIMA(1,1,1), the forcasted Yen price increase in the next 5 days and suggest we should buy Yen Futures and hold position for the next 5 days. Estimation for ARIMA(1,1,1) is shown as belowed.
+From ARIMA(1,1,1), the forcasted Yen price increase in the next 5 days and suggest we should buy Yen Futures and hold position for the next 5 days. 
 
 ### GARCH Model Evaluation
 
@@ -24,7 +24,7 @@ Based on ARMA and ARIMA trend analysis, I would buy Yen Futures and hold the pos
 
 Given GARCH analysis, volatility of Yen Futures price is expected to increase in the 5-day horizon. However, fitness of the model is very low and there might be large room for error from estimation.
 
-Based on the model evaluation, I would feel more confident to trade Yen Futures position based on estimated price. However, I would feel less conficdent in using predicted risk to trade Yen derivatives based on model prediction given low fitness of the model and I might end up being margin called if there is anything beyond the model forecast.
+Based on the model evaluation, I would feel more confident to trade Yen Futures position based on estimated price. However, I would feel less conficdent in using predicted risk to trade Yen derivatives  given low fitness of the model. Trading derivatives is more risky and need more accuracy of model prediction. With low accuracy or precision, I might end up being charged with large margin call if there is anything beyond the model forecast.
 
 ## Regression Analysis
 
